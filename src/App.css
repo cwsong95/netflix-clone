@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #111;
+}
+
+.login {
+  background-color: #111;
+  width: 600px;
+  display: flex;
+}

@@ -1,0 +1,99 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 25px;
+  z-index: 1;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 25px;
+  z-index: 1;
+  background-color: #111; 
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 40px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.nav__home {
+  position: fixed;
+  left: 140px;
+  width: 80px;
+  object-fit: contain;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  border-radius: 0.2vw;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.nav__tv {
+  position: fixed;
+  left: 205px;
+  width: 140px;
+  object-fit: contain;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  border-radius: 0.2vw;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.nav__movies {
+  position: fixed;
+  left: 320px;
+  width: 80px;
+  object-fit: contain;
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  border-radius: 0.2vw;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 30px;
+  width: 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
